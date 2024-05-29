@@ -12,10 +12,10 @@ btn1.addEventListener('click', start)
 
 function start(){
     const randomN = Math.floor(Math.random() * chars.length)
+    nome = chars[randomN]
 
     switch(randomN){
         case 0:
-            nome = 'NARUTO'
             tips = [
                 'O mais famoso portador das nove caudas',
                 '"Esse é o meu jeito ninja de ser"',
@@ -25,7 +25,6 @@ function start(){
             break
     
         case 1:
-            nome = 'VEGETA'
             tips = [
                 'Maior rival do Goku',
                 'Príncipe dos Sayajins',
