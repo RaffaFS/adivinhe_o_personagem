@@ -1,0 +1,20 @@
+// Regras
+
+- Cada rodada inicia com o jogador pressionando um botão que revela uma frase sobre o personagem ou universo
+- O jogador inicia cada rodada com 3 pontos
+- O jogador pode tentar adivinhar o personagem apenas com a primeira frase e ganhar dois pontos
+- O jogador pode pedir uma nova frase e em seguida tentar acertar por 2 pontos
+- O jogador pode pedir uma nova frase e em seguida tentar acertar por 1 pontos
+- O jogador pode passar adiante caso não saiba o personagem, assim ganhando 0 pontos na rodada
+- Passando ou acertando, uma imagem e nome do personagem é revelado
+- Cada "partida" terá 10 rodadas
+
+// Planos
+
+- O jogo terá um sistema onde associará cada personagem à um número e fará
+  um sorteio pseudoaleatorio trazendo as frases corretas a tela
+- Cada personagem terá uma grande variedade de frases associadas à ele e,
+  ao pressionar do botão, o mesmo esquema de sorteio será aplicado às frases,
+  um grande número de frases é necessário para não ficar repetitivo
+  
+// A ideia é, no futuro, dividir por dificuldades, mas isso não funcionará bem tendo poucos personagens
