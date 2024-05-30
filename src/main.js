@@ -46,7 +46,7 @@ function start(){
 
             else{
                 const resBox = document.querySelector('#results_box')
-                resBox.innerHTML = `<p>Você acertou tantas, errou tantass e pulou tantas</p>`
+                resBox.innerHTML = `<p>Você acertou tantas, errou tantas e pulou tantas</p>`
             }
         }
 
