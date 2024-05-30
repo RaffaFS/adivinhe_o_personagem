@@ -1,3 +1,5 @@
+import {charsModule, tipsModule} from './personagens.js';
+
 const btnS = document.querySelector('#btnS')
 btnS.addEventListener('click', start)
 
@@ -7,7 +9,7 @@ let erros = 0
 const acertos = []
 
 function start(){
-        const chars = ['NARUTO', 'VEGETA']
+        const chars = [...charsModule]
         let nome = ''
         let tips = []
 
@@ -25,20 +27,12 @@ function start(){
 
                 switch(randomN){
                     case 0:
-                        tips = [
-                            'O mais famoso portador das nove caudas',
-                            '"Esse é o meu jeito ninja de ser"',
-                            'Usuário do Rasengan'
-                        ]        
+                        tips = [...tipsModule[0]]
                         randomTip()
                         break
                 
                     case 1:
-                        tips = [
-                            'Maior rival do Goku',
-                            'Príncipe dos Sayajins',
-                            'Marido da Bulma'
-                        ]        
+                        tips = [...tipsModule[1]]      
                         randomTip()
                         break
                 }
