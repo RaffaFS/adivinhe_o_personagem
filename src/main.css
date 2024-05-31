@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,7 +16,7 @@ body{
 header{
     max-width: 720px;
     width: 90%;
-    margin: 48px auto;
+    margin: 32px auto;
     color: #F75C03;
     text-align:center;
 }
@@ -50,20 +50,20 @@ header .description{
     letter-spacing: 1px;
 }
 
-.input_box {
-    margin-top: 8px;
+.interface_box_none{
+    display: none;
+}
+
+.input_box{
+    margin-bottom: 16px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 16px;
 }
 
-.input_box_none {
-    display: none;
-}
-
 .inputLabel{
-    font-size: 24px;
+    font-size: 20px;
     color: #F75C03;
 }
 
@@ -73,12 +73,12 @@ header .description{
     padding: 4px;
 }
 
-.btn_box {
+.btn_box{
     text-align: center;
     margin-bottom: 8px;
 }
 
-.btn {
+.btn{
     padding: 8px;
     background-color: #020061;
     color: #F75C03;
@@ -87,29 +87,28 @@ header .description{
     border-radius: 8px;
 }
 
+.btnH{
+    display: none;
+}
+
 .btn:hover{
     filter: brightness(120%);
 }
 
-.btnS {
-    width: 200px;
-    height: 56px;
+.btnS{
+    padding: 16px 56px;
     font-size: 20px;
     font-style: italic;
 }
 
-.btnH {
-    display: none;
-}
-
 .results_box{
-    margin: 32px;
     font-size: 24px;
     padding: 8px;
     text-align: center;
     color: #F75C03;
+    margin: 16px;
 }
 
-.results_box_none{
-    display: none;
+.acerto{
+    font-size: 16px;
 }
