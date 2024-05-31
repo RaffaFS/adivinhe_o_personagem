@@ -53,8 +53,13 @@ header .description{
 .input_box {
     margin-top: 8px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 16px;
+}
+
+.input_box_none {
+    display: none;
 }
 
 .inputLabel{
@@ -79,6 +84,22 @@ header .description{
     color: #F75C03;
     font-family: "Oswald", sans-serif;
     letter-spacing: 1px;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    filter: brightness(120%);
+}
+
+.btnS {
+    width: 200px;
+    height: 56px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.btnH {
+    display: none;
 }
 
 .results_box{
@@ -87,4 +108,8 @@ header .description{
     padding: 8px;
     text-align: center;
     color: #F75C03;
+}
+
+.results_box_none{
+    display: none;
 }
