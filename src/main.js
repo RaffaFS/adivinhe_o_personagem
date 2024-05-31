@@ -16,14 +16,17 @@ function start(){
         const btn1 = document.querySelector('#btn1')
         btn1.addEventListener('click', rodada)
 
-        const resBox = document.querySelector('#results_box')
+        const imgChar = document.querySelector('#img_personagens')
+        const textTip = document.querySelector('#text_tip')
         const inputV = document.querySelector('#userInput')
         const form = document.querySelector('#form')
+        const img = document.querySelector('#imgPlaceholder')
 
         function rodada(){
             if(rodadas < 25){
                 const randomN = Math.floor(Math.random() * chars.length)
                 nome = chars[randomN]
+                imgChar.src = 'https://placehold.co/240x240'
 
                 switch(randomN){
                     case 0:
@@ -39,14 +42,13 @@ function start(){
 
                 function randomTip(){
                     const randomT = Math.floor(Math.random() * tips.length)
-                    resBox.innerHTML = `<p>${tips[randomT]}</p>`
+                    textTip.innerHTML = `<p>${tips[randomT]}</p>`
                 }
                 rodadas++
             }
 
             else{
-                const resBox = document.querySelector('#results_box')
-                resBox.innerHTML = `<p>Você acertou tantas, errou tantas e pulou tantas</p>`
+                textTip.innerHTML = `<p>Você acertou ${acertos.length} tantas, errou tantas e pulou tantas</p>`
             }
         }
 
@@ -66,6 +68,7 @@ function start(){
                 }
             }
             inputV.value = ''
+            nome = ''
         }
     }
 
@@ -73,3 +76,11 @@ function start(){
 // será o desenvolvimento do armazenamento de pontos e depois dessa
 // um sistema de rodadas máximas e retorno visual dos pontos obtidos
 
+// 1. mudar sistema de erro e acerto (innerHTML) e mensagens
+// 2. trazer ao clicar em iniciar jogo, uma imagem placeholder de personagem em vetor
+// 3. na tela de acerto substituir a img placeholder pela img do personagem quando acertar
+// 4. construir tela final pós 25 rodadas
+// 5. na tela final trazer botão para reiniciar o jogo ou recarregar pagina
+
+// 6. se a pessoa não clica uma segunda vez em abrir rodada, e insere e envia varias
+//    vezes o nome do personagem certo na mesma rodada, isso continua inserindo o nome
