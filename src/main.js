@@ -44,7 +44,7 @@ function start(){
             rodadas++
         }
         else{
-            textTip.innerHTML = `<p>Você acertou ${acertos.length} tantas, errou tantas e pulou tantas</p>`
+            textTip.innerHTML = `<p>Você acertou ${acertos.length} personagens, errou ${erros} e pulou ${25-(acertos.length+erros)}</p>`
         }
     }
 
@@ -74,14 +74,9 @@ function start(){
     }
 }
 
-// Ainda há de ser melhorada, mas já está funcional, a próxima parte
-// será o desenvolvimento do armazenamento de pontos e depois dessa
-// um sistema de rodadas máximas e retorno visual dos pontos obtidos
-
-// 1. mudar sistema de erro e acerto (innerHTML) e mensagens
-// 2. trazer ao clicar em iniciar jogo, uma imagem placeholder de personagem em vetor
-// 3. na tela de acerto substituir a img placeholder pela img do personagem quando acertar
+// 2. buscar imagem de placeholder para o momento de adivinhação
+// 3. inserir os sources das imagens para cada personagem
 // 4. construir tela final pós 25 rodadas
 // 5. na tela final trazer botão para reiniciar o jogo ou recarregar pagina
 
-// 6. pensar em colocar os switch-case em módulos separados do código main
+// existe um personagem faltando na lista com relação as imagens
