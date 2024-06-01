@@ -1,4 +1,5 @@
 import {charsModule, tipsModule} from './personagens.js';
+import {imgSources} from './imagens.js';
 
 const btnS = document.querySelector('#btnS')
 btnS.addEventListener('click', start)
@@ -17,7 +18,9 @@ function start(){
     const chars = [...charsModule]
     let nome = ''
     let tips = []
-    let imagem = 0
+    let imagem = []
+    let randomN = 0
+
 
     const btn1 = document.querySelector('#btn1')
     const imgChar = document.querySelector('#img_personagens')
@@ -29,21 +32,14 @@ function start(){
     form.addEventListener('submit', analisar)
 
     function rodada(){
-        const randomN = Math.floor(Math.random() * chars.length)
-        imagem = randomN
+        const number = Math.floor(Math.random() * chars.length)
+        randomN = number
 
         if(rodadas < 25){    
             nome = chars[randomN]
             imgChar.src = 'https://placehold.co/240x240'
+            tips = [...tipsModule[randomN]]
 
-            switch(randomN){
-                case 0:
-                    tips = [...tipsModule[0]]
-                    break
-                case 1:
-                    tips = [...tipsModule[1]]
-                    break
-            }
             randomTip()
             rodadas++
         }
@@ -63,14 +59,8 @@ function start(){
 
         if(inputUp != ''){
             if(inputUp == nome){
-                switch(imagem){
-                    case 0:
-                        imgChar.src = 'https://placehold.co/280x280'
-                        break
-                    case 1:
-                        imgChar.src = 'https://placehold.co/200x200'
-                        break
-                }
+                imagem = imgSources[randomN]
+                imgChar.src = imagem
                 textTip.innerHTML = `<p class='acerto'>Isso aí, você acertou!</p>`
                 acertos.push(inputUp)
             }
@@ -93,3 +83,5 @@ function start(){
 // 3. na tela de acerto substituir a img placeholder pela img do personagem quando acertar
 // 4. construir tela final pós 25 rodadas
 // 5. na tela final trazer botão para reiniciar o jogo ou recarregar pagina
+
+// 6. pensar em colocar os switch-case em módulos separados do código main
