@@ -50,10 +50,6 @@ header .description{
     letter-spacing: 1px;
 }
 
-.interface_box_none{
-    display: none;
-}
-
 .input_box{
     margin-bottom: 16px;
     display: flex;
@@ -111,4 +107,8 @@ header .description{
     text-align: center;
     color: #F75C03;
     margin: 16px;
+}
+
+.none{
+    display: none;
 }

@@ -11,7 +11,7 @@ const acertos = []
 function start(){
     const btnAll = document.querySelectorAll('.btn')
     const interfaceBox = document.querySelector('#interface_box')
-    interfaceBox.classList.remove('interface_box_none')
+    interfaceBox.classList.remove('none')
     btnAll.forEach((btn) => {btn.classList.toggle('btnH')})
 
     const chars = [...charsModule]
@@ -24,18 +24,22 @@ function start(){
     const imgChar = document.querySelector('#img_personagens')
     const textTip = document.querySelector('#text_tip')
     const inputV = document.querySelector('#userInput')
+    const inputB = document.querySelector('#input_box')
     const form = document.querySelector('#form')
+
+    imgChar.src = 'src/imgs/1placeholder_360x360.jpg'
 
     btn1.addEventListener('click', rodada)
     form.addEventListener('submit', analisar)
 
     function rodada(){
+        inputB.classList.remove('none')
         const number = Math.floor(Math.random() * chars.length)
         randomN = number
 
         if(rodadas < 25){    
+            
             nome = chars[randomN]
-            imgChar.src = 'src/imgs/1placeholder_akira_360x360.jpg'
             tips = [...tipsModule[randomN]]
 
             randomTip()
