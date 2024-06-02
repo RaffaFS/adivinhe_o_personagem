@@ -15,7 +15,7 @@ export const charsModule = [
     'ZORO',
     'KIRITO',
     'ASUNA',
-    'BOA',
+    'HANCOCK',
     'ITACHI',
     'TANJIRO',
     'MELIODAS',
@@ -31,7 +31,7 @@ export const charsModule = [
     'GON',
     'KILLUA',
     'DIO',
-    'MIDORIYA',
+    'DEKU',
     'ALL MIGHT',
     'ZENITSU',
     'SABER',
@@ -40,7 +40,7 @@ export const charsModule = [
     'SHINJI',
     'OROCHIMARU',
     'GOJO',
-    'NICO',
+    'ROBIN',
     'YUUJI',
     'ERZA',
     'NATSU',
@@ -54,7 +54,7 @@ export const charsModule = [
     'HISOKA',
     'GRAY',
     'KURAPIKA',
-    'SHIGEO',
+    'MOB',
     'MOTOKO',
     'VIOLET',
     'ERWIN',
@@ -219,114 +219,97 @@ export const tipsModule = [
     // Levi Ackerman
     [
         '"Se não lutarmos, não podemos vencer."',
-        '"Vou exterminar todos eles."',
+        'Tem mania exagerada de limpeza',
         '"Dê tudo de si, ou morra tentando."',
         'Capitão do Esquadrão de Operações Especiais',
         'Considerado o soldado mais forte da humanidade',
-        'Extremamente habilidoso em combate contra Titãs',
-        'Tem um forte senso de dever e liderança',
-        'É impiedoso com seus inimigos',
+        'Extremamente habilidoso em combate contra titãs',
+        'Implacável na sua busca por derrotar os titãs',
+        'Arrancou um dente do protagonista com um chute',
+        'É impiedoso com seus inimigos colossais',
         'Tem um passado traumático e trágico',
-        'Respeitado por seus subordinados',
-        'Focado em proteger a humanidade'
+        'Muito respeitado por seus subordinados',
+        'Focado em proteger a humanidade das ameaças externas'
     ],
     // Lelouch Lamperouge
     [
-        '"Eu, Lelouch vi Britannia, ordeno que morram!"',
+        'Possuí o "poder da obediência absoluta" no olho esquerdo',
         '"O mundo não pode ser mudado com palavras bonitas."',
         '"Eu vou destruir o mundo e criá-lo novamente."',
         'Protagonista de Code Geass',
         'Ex-príncipe do Império Britannia',
-        'Obtém o poder do Geass',
+        'Obtém o poder do Geass de uma "bruxa"',
         'Lidera a resistência contra o Império Britannia',
-        'Extremamente inteligente e estrategista',
+        '"Eu não sou um herói, sou um rei!"',
         'Usa o codinome Zero',
-        'Tem um forte senso de justiça e vingança',
+        'Matou seu pai em uma operação de resgate a sua irmã',
         'Sacrifica muito pelo seu ideal de um mundo melhor'
     ],
     // Roronoa Zoro
     [
         '"Eu nunca mais vou perder novamente!"',
-        '"Nada aconteceu."',
+        'Perdeu 200 batalhas para a sua amiga e nunca a venceu',
         '"Santoryu: Ougi, Sanzen Sekai!"',
         'Espadachim dos Piratas do Chapéu de Palha',
         'Usa três espadas no combate',
         'Sonha em se tornar o maior espadachim do mundo',
-        'Extremamente leal a Luffy',
-        'Tem um forte senso de honra e determinação',
-        'Treina constantemente para melhorar suas habilidades',
-        'Tem uma grande resistência física',
+        'O mais leal dos companheiros de Luffy',
+        '"Minhas espadas são pesadas pois carregam sentimentos"',
+        '"Cortou um pedaço de uma ilha com uma espada amaldiçoada"',
         'É conhecido por seu senso de direção péssimo'
     ],
     // Kirito
     [
-        '"Eu não vou deixar ninguém morrer!"',
-        '"Eu vou lutar para proteger todos."',
+        'Mais conhecido pelo seu nick, seu nome real é Kazuto',
         '"Eu sou apenas um jogador solo."',
-        'Protagonista de Sword Art Online',
-        'Preso no mundo virtual de SAO',
-        'Extremamente habilidoso em combate virtual',
+        'Protagonista de SAO',
+        'Preso em mundo virtual num castelo flutuante',
+        'Casou-se e comprou uma casa de campo, no mundo virtual',
         'Forma uma relação romântica com Asuna',
-        'Líder natural e protetor',
+        'Usa um sabre de luz na segunda temporada',
         'Busca libertar todos os jogadores presos',
-        'Habilidoso em várias habilidades de jogo',
-        'Luta contra várias ameaças no mundo virtual'
+        'O primeiro a utilizar duas espadas em cobate dentro do game',
+        'Sua arma mais icônica se chama "Elucidator"',
+        'Perdeu a mão protegendo sua amada'
     ],
     // Asuna
     [
         '"Eu sempre estarei ao seu lado, Kirito."',
-        '"Eu vou proteger todos!"',
-        '"Ninguém ficará para trás!"',
-        'Co-protagonista de Sword Art Online',
-        'Extremamente habilidosa em combate',
+        'Presa no topo de uma torre em Alfheim',
+        'Vice-comandante da guilda mais poderosa de Aincrad',
+        'Co-protagonista de SAO',
+        'Luta utilizando um florete chamado "Lambent Light"',
         'Conhecida como a "Relâmpago" por sua velocidade',
-        'Tem uma relação romântica com Kirito',
-        'Líder de fato em várias situações',
-        'Forte senso de justiça e proteção',
-        'Deseja a liberdade de todos os jogadores presos',
-        'Valorizada por suas habilidades estratégicas'
-    ],
-    // Boa Hancock
-    [
-        '"Eu sou bela e poderosa!"',
-        '"Eu só amo uma pessoa."',
-        '"Ninguém pode resistir ao meu charme!"',
-        'Capitã das Piratas Kuja',
-        'Imperatriz da Ilha Amazona Lily',
-        'Uma das Sete Senhoras da Guerra',
-        'Extremamente poderosa e habilidosa',
-        'Tem uma queda por Monkey D. Luffy',
-        'Tem uma história de vida trágica',
-        'Usa o poder da Fruta Mero Mero',
-        'Comanda suas guerreiras com sabedoria e força'
+        'Entra num mundo virtual novo para resgatar seu amado em coma',
+        'Assume o papel "Stacia", deusa da criação em Underworld',
+        'Concede o dejeso de uma batalha final digna para Yuuki',
+        'O protagonista inicialmente a conquista com uma "banheira"'
     ],
     // Uchiha Itachi
     [
         '"Eu sempre vou te amar, Sasuke."',
-        '"Aqueles que não entendem a verdadeira dor nunca podem entender a verdadeira paz."',
-        '"Eu fiz o que precisava ser feito."',
+        'O primeiro a mostrar a técnica "amateratsu" no anime',
+        '"Você é fraco porque lhe falta ódio"',
         'Irmão mais velho de Sasuke',
-        'Membro da Akatsuki',
+        'Membro da akatsuki conhecido por "corvos"',
         'Responsável pelo massacre do clã Uchiha',
-        'Extremamente habilidoso e inteligente',
-        'Tem um forte senso de dever e sacrifício',
-        'Busca a paz através de seus próprios métodos',
+        'O integrante a entrar na ANBU mais cedo',
         'Revela-se como um herói trágico',
-        'Seu amor por Sasuke guia muitas de suas ações'
+        'Seu amor por Sasuke guia muitas de suas ações',
+        'Susanoo vermelho/laranja'
     ],
     // Tanjiro Kamado
     [
-        '"Eu nunca vou desistir!"',
+        '"Use sua cabeça, não apenas o espírito!"',
         '"Eu protegerei minha irmã a qualquer custo!"',
         '"Respiração da Água, Primeira Forma!"',
-        'Protagonista de Demon Slayer',
-        'Busca vingar sua família e curar sua irmã Nezuko',
+        '"Corra antes que o sol chegue!"',
+        'Busca reverter a maldição de sua irmã caçula',
         'Treinou intensivamente para se tornar um Caçador de Demônios',
-        'Tem um forte senso de compaixão e justiça',
-        'Extremamente habilidoso com a espada',
-        'Tem uma forte ligação com sua irmã',
+        'Usuário da respiração do fogo',
+        'Recebeu a nishirin preta',
         'Determinado a exterminar todos os demônios',
-        'Tem uma resistência e determinação notáveis'
+        'Aprendeu a dançar "Hinokami Kagura"'
     ],
     // Meliodas
     [
@@ -635,20 +618,6 @@ export const tipsModule = [
         'Busca proteger e treinar novos feiticeiros',
         'Usa o poder do Limitless e Six Eyes',
         'Sempre confiante em suas habilidades'
-    ],
-    // Nico Robin
-    [
-        '"Eu só quero encontrar a verdadeira história!"',
-        '"Eu vou proteger meus amigos!"',
-        '"Hana Hana no Mi!"',
-        'Arqueóloga dos Piratas do Chapéu de Palha',
-        'Busca a verdade sobre o Século Perdido',
-        'Usa o poder da Hana Hana no Mi',
-        'Inicialmente uma inimiga, torna-se aliada',
-        'Tem um passado trágico e solitário',
-        'Extremamente inteligente e sagaz',
-        'Tem um forte senso de justiça e lealdade',
-        'Protege e valoriza seus amigos'
     ],
     // Yuuji Itadori
     [
