@@ -35,20 +35,20 @@ function start(){
 
         if(rodadas < 25){    
             nome = chars[randomN]
-            imgChar.src = 'https://placehold.co/240x240'
+            imgChar.src = 'src/imgs/1placeholder_akira_360x360.jpg'
             tips = [...tipsModule[randomN]]
 
             randomTip()
             rodadas++
         }
         else{
-            textTip.innerHTML = `<p>Você acertou ${acertos.length} personagens, errou ${erros} e pulou ${25-(acertos.length+erros)}</p>`
+            textTip.innerText = `Você acertou ${acertos.length} personagens, errou ${erros} e pulou ${25-(acertos.length+erros)}`
         }
     }
 
     function randomTip(){
         const randomT = Math.floor(Math.random() * tips.length)
-        textTip.innerHTML = `<p>${tips[randomT]}</p>`
+        textTip.innerText = `${tips[randomT]}`
     }
 
     function analisar(e){
@@ -58,11 +58,11 @@ function start(){
         if(inputUp != ''){
             if(inputUp == nome){
                 imgChar.src = `src/imgs/${nome}_360x360.jpg`
-                textTip.innerHTML = `<p class='acerto'>Isso aí, você acertou!</p>`
+                textTip.innerText = `Isso aí, você acertou!`
                 acertos.push(inputUp)
             }
             else{
-                textTip.innerHTML = `<p class='acerto'>Que pena, você errou</p>`
+                textTip.innerText = `Que pena, você errou`
                 erros++
             }
         }
