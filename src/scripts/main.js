@@ -37,8 +37,8 @@ function start(){
         const number = Math.floor(Math.random() * chars.length)
         randomN = number
 
-        if(rodadas < 25){    
-            
+        if(rodadas < 25){
+            imgChar.src = 'src/imgs/1placeholder_360x360.jpg'
             nome = chars[randomN]
             tips = [...tipsModule[randomN]]
 
