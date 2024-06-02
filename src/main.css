@@ -109,6 +109,13 @@ header .description{
     margin: 16px;
 }
 
+.img_personagens{
+    width: 200px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px #000;
+}
+
 .none{
     display: none;
 }

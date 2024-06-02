@@ -152,7 +152,7 @@ export const tipsModule = [
     [
         '"Eu sou a justiça!"',
         '"Eu vou criar um novo mundo, um mundo perfeito."',
-        '"Estou livrando o mundo do mal e criando uma utopia',
+        '"Estou livrando o mundo do mal e criando uma utopia"',
         'Protagonista de Death Note',
         'Encontra o caderno de um shinigami',
         'Adota o pseudônimo de Kira',
