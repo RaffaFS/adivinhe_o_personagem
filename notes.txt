@@ -1,0 +1,12 @@
+/////// Processo de introdução de personagem
+
+1. O nome do personagem e o conjunto de dicas sobre ele possuem índices iguais em seus respectivos arrays
+2. Sendo assim, ao adicionar um personagem novo, leve isso em conta, apenas mantenha o padrão e tudo funcionará
+3. Nomeie o novo personagem com o caps lock ativo
+
+4. Ao adicionar a imagem para um personagem, primeiro a encontramos na internet, sendo png, jpg ou jpeg
+5. Depois disso a convertemos para jpg se ainda não for
+6. Então fazemos o crop de aspect ratio 1:1
+7. Por fim a redimensionamos para 360x360 e a renomeamos
+8. O nome deve ser exatamente igual a como está no arquivo personagens.js + "_360x360.jpg"
+9. Novamente, basta observar o padrão e entenderá
