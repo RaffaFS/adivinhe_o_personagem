@@ -1,5 +1,4 @@
 import {charsModule, tipsModule} from './personagens.js';
-import {imgSources} from './imagens.js';
 
 const btnS = document.querySelector('#btnS')
 btnS.addEventListener('click', start)
@@ -12,13 +11,12 @@ const acertos = []
 function start(){
     const btnAll = document.querySelectorAll('.btn')
     const interfaceBox = document.querySelector('#interface_box')
-    interfaceBox.classList.remove('interface_box_none')
+    interfaceBox.classList.remove('none')
     btnAll.forEach((btn) => {btn.classList.toggle('btnH')})
 
     const chars = [...charsModule]
     let nome = ''
     let tips = []
-    let imagem = []
     let randomN = 0
 
 
@@ -26,31 +24,35 @@ function start(){
     const imgChar = document.querySelector('#img_personagens')
     const textTip = document.querySelector('#text_tip')
     const inputV = document.querySelector('#userInput')
+    const inputB = document.querySelector('#input_box')
     const form = document.querySelector('#form')
+
+    imgChar.src = 'src/imgs/1placeholder_360x360.jpg'
 
     btn1.addEventListener('click', rodada)
     form.addEventListener('submit', analisar)
 
     function rodada(){
+        inputB.classList.remove('none')
         const number = Math.floor(Math.random() * chars.length)
         randomN = number
 
-        if(rodadas < 25){    
+        if(rodadas < 25){
+            imgChar.src = 'src/imgs/1placeholder_360x360.jpg'
             nome = chars[randomN]
-            imgChar.src = 'https://placehold.co/240x240'
             tips = [...tipsModule[randomN]]
 
             randomTip()
             rodadas++
         }
         else{
-            textTip.innerHTML = `<p>Você acertou ${acertos.length} tantas, errou tantas e pulou tantas</p>`
+            textTip.innerText = `Você acertou ${acertos.length} personagens, errou ${erros} e pulou ${25-(acertos.length+erros)}`
         }
     }
 
     function randomTip(){
         const randomT = Math.floor(Math.random() * tips.length)
-        textTip.innerHTML = `<p>${tips[randomT]}</p>`
+        textTip.innerText = `${tips[randomT]}`
     }
 
     function analisar(e){
@@ -59,13 +61,12 @@ function start(){
 
         if(inputUp != ''){
             if(inputUp == nome){
-                imagem = imgSources[randomN]
-                imgChar.src = imagem
-                textTip.innerHTML = `<p class='acerto'>Isso aí, você acertou!</p>`
+                imgChar.src = `src/imgs/${nome}_360x360.jpg`
+                textTip.innerText = `Isso aí, você acertou!`
                 acertos.push(inputUp)
             }
             else{
-                textTip.innerHTML = `<p class='acerto'>Que pena, você errou</p>`
+                textTip.innerText = `Que pena, você errou`
                 erros++
             }
         }
@@ -74,14 +75,9 @@ function start(){
     }
 }
 
-// Ainda há de ser melhorada, mas já está funcional, a próxima parte
-// será o desenvolvimento do armazenamento de pontos e depois dessa
-// um sistema de rodadas máximas e retorno visual dos pontos obtidos
-
-// 1. mudar sistema de erro e acerto (innerHTML) e mensagens
-// 2. trazer ao clicar em iniciar jogo, uma imagem placeholder de personagem em vetor
-// 3. na tela de acerto substituir a img placeholder pela img do personagem quando acertar
+// 2. buscar imagem de placeholder para o momento de adivinhação
+// 3. inserir os sources das imagens para cada personagem
 // 4. construir tela final pós 25 rodadas
 // 5. na tela final trazer botão para reiniciar o jogo ou recarregar pagina
 
-// 6. pensar em colocar os switch-case em módulos separados do código main
+// recortando e redimensionando imagens e, melhorando lógica de exibição por acerto

@@ -50,10 +50,6 @@ header .description{
     letter-spacing: 1px;
 }
 
-.interface_box_none{
-    display: none;
-}
-
 .input_box{
     margin-bottom: 16px;
     display: flex;
@@ -99,6 +95,10 @@ header .description{
     padding: 16px 56px;
     font-size: 20px;
     font-style: italic;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .results_box{
@@ -109,6 +109,13 @@ header .description{
     margin: 16px;
 }
 
-.acerto{
-    font-size: 16px;
+.img_personagens{
+    width: 200px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px #000;
+}
+
+.none{
+    display: none;
 }
