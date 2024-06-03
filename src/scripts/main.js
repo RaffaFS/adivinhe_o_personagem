@@ -9,18 +9,18 @@ let erros = 0
 const acertos = []
 
 function start(){
-    const btnAll = document.querySelectorAll('.btn')
+    const btn1 = document.querySelector('#btn1')
+    const btn2 = document.querySelector('#btn2')
     const interfaceBox = document.querySelector('#interface_box')
     interfaceBox.classList.remove('none')
-    btnAll.forEach((btn) => {btn.classList.toggle('btnH')})
+    btnS.classList.add('btnH')
+    btn1.classList.remove('btnH')
 
     const chars = [...charsModule]
     let nome = ''
     let tips = []
     let randomN = 0
 
-
-    const btn1 = document.querySelector('#btn1')
     const imgChar = document.querySelector('#img_personagens')
     const textTip = document.querySelector('#text_tip')
     const inputV = document.querySelector('#userInput')
@@ -33,6 +33,8 @@ function start(){
     form.addEventListener('submit', analisar)
 
     function rodada(){
+        btn1.classList.add('btnH')
+        btn2.classList.remove('btnH')
         inputB.classList.remove('none')
         const number = Math.floor(Math.random() * chars.length)
         randomN = number
@@ -57,6 +59,8 @@ function start(){
 
     function analisar(e){
         e.preventDefault()
+        btn1.classList.remove('btnH')
+        btn2.classList.add('btnH')
         const inputUp = inputV.value.toUpperCase()
 
         if(inputUp != ''){
