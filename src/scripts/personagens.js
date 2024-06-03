@@ -5,7 +5,7 @@ export const charsModule = [
     'SASUKE',
     'LUFFY',
     'EREN',
-    'LIGHT',
+    'KIRA',
     'SAITAMA',
     'EDWARD',
     'SPIKE',
@@ -146,7 +146,7 @@ export const tipsModule = [
         'Deixou a divisão de reconhecimento para seguir suas próprias convicções',
         'Conflituoso sobre sua própria raça'
     ],
-    // Light Yagami
+    // Kira (Light Yagami)
     [
         '"Eu sou a justiça!"',
         '"Eu vou criar um novo mundo, um mundo perfeito."',
