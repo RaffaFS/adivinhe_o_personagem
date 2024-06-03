@@ -62,6 +62,7 @@ function start(){
         e.preventDefault()
         btn1.classList.remove('none')
         btn2.classList.add('none')
+        inputB.classList.add('none')
         const inputTrim = inputV.value.trim()
         const inputUp = inputTrim.toUpperCase()
 
@@ -83,12 +84,11 @@ function start(){
         }
         inputV.value = ''
         nome = ''
+        
     }
 }
 
-// 2. buscar imagem de placeholder para o momento de adivinhação
-// 3. inserir os sources das imagens para cada personagem
-// 4. construir tela final pós 25 rodadas
-// 5. na tela final trazer botão para reiniciar o jogo ou recarregar pagina
-
-// recortando e redimensionando imagens e, melhorando lógica de exibição por acerto
+// 1. construir tela final pós 10 rodadas
+// 2. criar tela final com:
+// 2.1 botão para reiniciar ou recarregar a página
+// 2.2 estrutura if/else para exibir diferentes imagens e frases a depender do número de acertos
