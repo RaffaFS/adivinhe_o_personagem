@@ -11,10 +11,11 @@ const acertos = []
 function start(){
     const btn1 = document.querySelector('#btn1')
     const btn2 = document.querySelector('#btn2')
+    const newGame = document.querySelector('#newGame_box')
     const interfaceBox = document.querySelector('#interface_box')
+    newGame.classList.add('none')
     interfaceBox.classList.remove('none')
-    btnS.classList.add('btnH')
-    btn1.classList.remove('btnH')
+    btn1.classList.remove('none')
 
     const chars = [...charsModule]
     let nome = ''
@@ -33,13 +34,13 @@ function start(){
     form.addEventListener('submit', analisar)
 
     function rodada(){
-        btn1.classList.add('btnH')
-        btn2.classList.remove('btnH')
+        btn1.classList.add('none')
         inputB.classList.remove('none')
         const number = Math.floor(Math.random() * chars.length)
         randomN = number
 
-        if(rodadas < 25){
+        if(rodadas < 10){
+            btn2.classList.remove('none')
             imgChar.src = 'src/imgs/1placeholder_360x360.jpg'
             nome = chars[randomN]
             tips = [...tipsModule[randomN]]
@@ -48,7 +49,7 @@ function start(){
             rodadas++
         }
         else{
-            textTip.innerText = `Você acertou ${acertos.length} personagens, errou ${erros} e pulou ${25-(acertos.length+erros)}`
+            textTip.innerText = `Você acertou ${acertos.length} personagens, errou ${erros} e pulou ${10-(acertos.length+erros)}`
         }
     }
 
@@ -59,8 +60,8 @@ function start(){
 
     function analisar(e){
         e.preventDefault()
-        btn1.classList.remove('btnH')
-        btn2.classList.add('btnH')
+        btn1.classList.remove('none')
+        btn2.classList.add('none')
         const inputTrim = inputV.value.trim()
         const inputUp = inputTrim.toUpperCase()
 

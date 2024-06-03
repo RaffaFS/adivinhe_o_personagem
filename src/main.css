@@ -36,6 +36,18 @@ header .description{
     text-shadow: 0px 4px 8px #111;
 }
 
+.newGame_box{
+    text-align: center;
+}
+
+.description_box{
+    font-family: "Oswald", sans-serif;
+    color: #F75C03;
+    font-size: 20px;
+    margin-bottom: 32px;
+    text-shadow: 0px 2px 4px #111;
+}
+
 .interface_box{
     margin: 0 auto;
     padding: 16px;
@@ -83,10 +95,6 @@ header .description{
     border-radius: 8px;
 }
 
-.btnH{
-    display: none;
-}
-
 .btn:hover{
     filter: brightness(120%);
 }
@@ -95,10 +103,7 @@ header .description{
     padding: 16px 56px;
     font-size: 20px;
     font-style: italic;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    
 }
 
 .results_box{
