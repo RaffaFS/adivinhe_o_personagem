@@ -74,7 +74,7 @@ function start(){
             }
             else{
                 const wrongChars = [...wrongCharsModule]
-                const randomW = Math.floor(Math.random() * tips.length)
+                const randomW = Math.floor(Math.random() * wrongChars.length)
                 const wrong = wrongChars[randomW]
                 imgChar.src = `src/imgsWrongChar/${wrong}.jpg`
 
