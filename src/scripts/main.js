@@ -1,4 +1,4 @@
-import {charsModule, tipsModule} from './personagens.js';
+import {wrongCharsModule, charsModule, tipsModule} from './personagens.js';
 
 const btnS = document.querySelector('#btnS')
 btnS.addEventListener('click', start)
@@ -71,7 +71,12 @@ function start(){
                 acertos.push(inputUp)
             }
             else{
-                textTip.innerText = `Que pena, você errou`
+                const wrongChars = [...wrongCharsModule]
+                const randomW = Math.floor(Math.random() * tips.length)
+                const wrong = wrongChars[randomW]
+                imgChar.src = `src/imgsWrongChar/${wrong}.jpg`
+
+                textTip.innerText = `Oops, parece que você errou (:`
                 erros++
             }
         }
