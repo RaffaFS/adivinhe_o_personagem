@@ -61,7 +61,8 @@ function start(){
         e.preventDefault()
         btn1.classList.remove('btnH')
         btn2.classList.add('btnH')
-        const inputUp = inputV.value.toUpperCase()
+        const inputTrim = inputV.value.trim()
+        const inputUp = inputTrim.toUpperCase()
 
         if(inputUp != ''){
             if(inputUp == nome){
