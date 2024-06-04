@@ -114,10 +114,15 @@ header .description{
 }
 
 .img_personagens{
-    width: 200px;
+    height: 200px;
     margin-bottom: 8px;
     border-radius: 8px;
     box-shadow: 0px 2px 4px #000;
+}
+
+.finalText{
+    font-size: 32px;
+    margin: 16px auto;
 }
 
 .none{

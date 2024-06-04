@@ -3,6 +3,7 @@ import {wrongCharsModule, charsModule, tipsModule} from './personagens.js';
 const btnS = document.querySelector('#btnS')
 btnS.addEventListener('click', start)
 
+const rodadasMax = 4
 let rodadas = 0
 let vazios = 0
 let erros = 0
@@ -39,7 +40,7 @@ function start(){
         const number = Math.floor(Math.random() * chars.length)
         randomN = number
 
-        if(rodadas < 10){
+        if(rodadas < rodadasMax){
             btn2.classList.remove('none')
             imgChar.src = 'src/imgs/1placeholder_360x360.jpg'
             nome = chars[randomN]
@@ -49,7 +50,48 @@ function start(){
             rodadas++
         }
         else{
-            textTip.innerText = `Você acertou ${acertos.length} personagens, errou ${erros} e pulou ${10-(acertos.length+erros)}`
+            const perCent10 = rodadasMax/10
+            const perCent25 = rodadasMax/4
+            const perCent50 = rodadasMax/2
+            const perCent70 = rodadasMax/1.4
+            const perCent90 = rodadasMax/1.1
+            const perCent100 = rodadasMax
+
+            textTip.innerHTML = `<p>Você acertou ${acertos.length} personagens, errou ${erros} e pulou ${rodadasMax-(acertos.length+erros)}</p>`
+            inputB.classList.add('none')
+            if(acertos.length == perCent100){
+                imgChar.src = 'src/imgsFinal/percent7.jpg'
+                textTip.innerHTML += `<p class="finalText">Oh meu amigo, tu tá legal? Tá comendo bem, tomando banho certinho? Tu poderia sair um pouco mais, sabe, encontrar uns amigos, uma namorada talvez... Só sugestão mesmo.</p>`
+            }
+            else if(acertos.length >= perCent90 && acertos.length != perCent100){
+                imgChar.src = 'src/imgsFinal/percent6.jpg'
+                textTip.innerHTML += `<p class="finalText">"O MISERÁVEL É UM GÊNIO!</p>`
+            }
+            else if(acertos.length >= perCent70 && acertos.length < perCent90){
+                imgChar.src = 'src/imgsFinal/percent5.jpg'
+                textTip.innerHTML += `<p class="finalText">"O seu poder de otaku é de 7000! E agora é de 8000, e continua aumentando!"</p>`
+            }
+            else if(acertos.length >= perCent50 && acertos.length < perCent70){
+                imgChar.src = 'src/imgsFinal/percent4.jpg'
+                textTip.innerHTML += `<p class="finalText">"Calma lá Kakarotto, tu tem que treinar mais um pouco"</p>`
+            }
+            else if(acertos.length >= perCent25 && acertos.length < perCent50){
+                imgChar.src = 'src/imgsFinal/percent3.jpg'
+                textTip.innerHTML += `<p class="finalText">"Nada mal, mas você pode mais que isso"</p>`
+            }
+            else if(acertos.length >= perCent10 && acertos.length < perCent25){
+                imgChar.src = 'src/imgsFinal/percent2.jpg'
+                textTip.innerHTML += `<p class="finalText">"Você não é tão bom assim, é um fracassado."</p>`
+            }
+            else{
+                imgChar.src = 'src/imgsFinal/percent1.jpg'
+                textTip.innerHTML += `<p class="finalText">"Tudo bem, o importante é ter saúde!"</p>`
+            }
+
+            textTip.innerHTML += `<button type="button" class="btn" id="btnReset">Tentar novamente</button>`
+            const reset = document.querySelector('#btnReset')
+            reset.addEventListener('click', recarregar)
+            function recarregar(){location.reload()}
         }
     }
 
@@ -92,3 +134,4 @@ function start(){
 // 2. criar tela final com:
 // 2.1 botão para reiniciar ou recarregar a página
 // 2.2 estrutura if/else para exibir diferentes imagens e frases a depender do número de acertos
+

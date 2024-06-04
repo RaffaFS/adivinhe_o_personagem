@@ -28,7 +28,7 @@ export const wrongCharsModule = [
     'SEILA5',
     'SEILA6',
     'SEILADRAGAO',
-    'SEILAKIMITSU',
+    'SEILAKIMETSU',
     'SEILAKON',
     'SEILAMERGULHO',
     'SEILASNK',
