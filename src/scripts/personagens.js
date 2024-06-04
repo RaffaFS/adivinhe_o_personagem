@@ -180,7 +180,7 @@ export const tipsModule = [
         '"Eu vou exterminar todos os Titãs!"',
         '"Se alguém tentar tirar minha liberdade, eu não hesitarei em tirar a deles!"',
         '"Eu quero ver e compreender o mundo exterior..."',
-        'Protagonista de Attack on Titan',
+        'Protagonista de AOT/SNK',
         'Testemunha a morte de sua mãe por um Titã',
         'Sempre quis descobrir o que havia fora das muralhas',
         'Possui o poder do Titã de Ataque',
@@ -440,20 +440,19 @@ export const tipsModule = [
         'Antigo discípulo de Jiraiya',
         'Controlado por Nagato',
         '"Nunca pause Naruto"',
-        'Destroiu Konoha com um jutsu',
+        'Destruiu Konoha com um jutsu',
         '"No .... no gain"',
         'Responsável pela morte de Jiraiya'
     ],
     // Madara
     [
-        'Usou o Sharingan paara controlar a curama',
+        'Usou o Sharingan para controlar a Kurama',
         '"O próprio egoísmo de querer manter a paz causa guerra e, assim, nasce o ódio para protejer o amor"',
         '"Eu vou criar um mundo de paz eterna."',
-        'Formou uma alinça entre o seu clã e o clã Senju',
-        'traído por Zetsu Negro',
+        'Formou uma aliança entre o seu clã e o clã Senju',
+        'Traído por Zetsu Negro',
         'Busca dominar o mundo shinobi',
         'Manipulou Obito',
-        'O primeiro personagem a possuir Sharingan e Rinnegan ao mesmo tempo',
         'Levou um pau do "sonbrancelhudo sensei"',
         'Tem uma rivalidade antiga com Hashirama Senju',
         'Deseja criar um mundo de sonhos através do Tsukuyomi Infinito'
@@ -466,11 +465,11 @@ export const tipsModule = [
         'Kazekage da Vila da Areia',
         'Portador do Shukaku',
         'Tem uma habilidade única de manipular areia',
-        'Tem amor na testa',
-        'Leva uma grande cabaça nas costas',
-        'Desempenha o papél de comandante na quarta grande guerra ninja',
+        'Tem "amor na testa"',
+        'Carrega uma grande cabaça nas costas',
+        'Desempenha o papel de comandante na quarta grande guerra ninja',
         'Levou um pau do Rock Lee',
-        'Batalhou nos ares contra Deidara'
+        'Batalhou no céu de Sunagakure contra Deidara'
     ],
     // Gon Freecss
     [
@@ -478,28 +477,28 @@ export const tipsModule = [
         '"É fácil pra você, né Killua"',
         'Protagonista de Hunter x Hunter',
         'Busca encontrar seu pai Ging',
-        'Em busca de aventura e de se tornar um hunter',
+        'Busca de aventura e de se tornar um hunter',
         'Forma uma amizade forte com Killua',
         'Aprende e domina o uso do Nen',
         '"Fazer loucuras é o meu trabalho, o seu é ficar calmo e me impedir"',
-        'Se torna uma verção adulta de si mesmo ao formar um voto',
+        'Se torna uma versão adulta de si mesmo ao formar um voto',
     ],
     // Killua Zoldyck
     [
         'Melhor amigo de Gon',
         'Membro da família de assassinos Zoldyck',
         'Desenvolve habilidades especiais de Nen',
-        '"A estúpidez é bem mais facinante que a inteligencia. A inteligencia tem limites, a estupidez não"',
-        'Tomou veneno quando criança',
-        '"Se eu ignorar um amigo que eu posso ajudar, eu não estaria o traindo?"',
+        '"A estúpidez é bem mais fascinante que a inteligência. A inteligência tem limites, a estupidez não"',
+        'Venenos não funcionam nele',
+        '"Se eu ignorar um amigo que posso ajudar, eu não estaria o traindo?"',
         'Ajuda Kurapika em sua missão de capturar os membros da Trupe Fantasma'
     ],
     // Dio Brando
     [
         '"Eu, Dio, não perdoo ninguém!"',
         '"Você pensou que era alguém, mas era eu, Dio!"',
-        '"O mundo é meu!"',
-        'Antagonista principal de JoJo\'s Bizarre Adventure',
+        '"Eu vou conseguir viver no céu, não importa o que eu precise fazer"',
+        'Principal Antagonista de JoJo\'s Bizarre Adventure',
         'Vampiro praticamente imortal e extremamente poderoso',
         'Usa o Stand "The World"',
         'Tem uma rivalidade com a família Joestar',
@@ -511,14 +510,14 @@ export const tipsModule = [
     [
         '"Se seus braços fraquejarem então se apoie em suas pernas"',
         '"Eu também... posso seu um super-herói?"',
-        'Ainda enquanto estudante, inspirou um menino a seguir seu sonho de se tornar herói',
-        'Recebe o poder do One For All de All Might',
+        'Despertou em Izumi Kota o desejo de se tornar um herói',
+        'Recebe o poder do "One For All" de All Might',
         'Inicialmente sem individualidade (quirk)',
         'Crush da Uraraka',
         'Comeu um fio de cabelo de uma pessoa muito poderosa',
-        'treinou muito antes de receber seus poderes',
+        'Tem como mestre e professor o "Símbolo da Paz"',
         'Forma amizades fortes na U.A. High School',
-        'Estourou seus dedos vária vezes antes de controlar seus poderes'
+        'Estourou seus dedos várias vezes antes de controlar seus poderes'
     ],
     // All Might
     [
