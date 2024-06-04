@@ -3,7 +3,7 @@ import {wrongCharsModule, charsModule, tipsModule} from './personagens.js';
 const btnS = document.querySelector('#btnS')
 btnS.addEventListener('click', start)
 
-const rodadasMax = 4
+const rodadasMax = 20
 let rodadas = 0
 let vazios = 0
 let erros = 0
