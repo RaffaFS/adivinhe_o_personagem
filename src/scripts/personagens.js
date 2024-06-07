@@ -82,8 +82,6 @@ export const charsModule = [
     'OROCHIMARU',
     'GOJO',
     'YUJI',
-    'ERZA',
-    'NATSU',
     'REI',
     'ASUKA',
     'MEGUMI',
@@ -92,8 +90,6 @@ export const charsModule = [
     'ASTA',
     'SENKU',
     'HISOKA',
-    'GRAY',
-    'KURAPIKA',
     'SHIGEO',
     'MOTOKO',
     'VIOLET',
@@ -619,75 +615,28 @@ export const tipsModule = [
         'A seu querer, troca de consciência com uma "maldição" que vive dentro dele',
         'Agora devem haver pelo menos 15 dedos dentro do .......'
     ],
-    // Erza Scarlet
+    // Ayanami Rei (Corrigir)
     [
-        '"Eu sou a Titania!"',
-        '"Eu vou proteger a Fairy Tail!"',
-        '"Eu não perdoo aqueles que machucam meus amigos!"',
-        'Membro da Guilda Fairy Tail',
-        'Extremamente poderosa e habilidosa',
-        'Usa magia de Reequipamento',
-        'Tem um forte senso de justiça e proteção',
-        'Líder e mentora para seus companheiros',
-        'Tem um passado traumático e difícil',
-        'Desenvolve laços fortes de amizade e lealdade',
-        'Sempre busca proteger e lutar pelo bem'
-    ],
-    // Natsu Dragneel
-    [
-        '"Eu sou um Dragon Slayer!"',
-        '"Eu vou proteger todos!"',
-        '"Eu não vou perder!"',
-        'Protagonista de Fairy Tail',
-        'Membro da Guilda Fairy Tail',
-        'Usa magia de Dragon Slayer de Fogo',
-        'Busca encontrar seu pai dragão Igneel',
-        'Tem uma personalidade impulsiva e energética',
-        'Forma fortes laços de amizade e lealdade',
-        'Determinado a proteger seus amigos',
-        'Enfrenta vários desafios e vilões'
-    ],
-    // Ayanami Rei
-    [
-        '"Eu não sei quem sou."',
-        '"Eu devo pilotar o Eva."',
-        '"Eu vou proteger todos."',
-        'Protagonista de Neon Genesis Evangelion',
         'Piloto do Eva Unit-00',
-        'Tem uma personalidade calma e reservada',
         'É um clone criado por Gendo Ikari',
-        'Busca entender sua própria identidade',
-        'Tem uma ligação complexa com Shinji Ikari',
-        'Participa de batalhas contra os Anjos',
-        'Desenvolve uma consciência de sua própria existência'
+        'Tem uma ligação MUUUITO complexa com Shinji Ikari',
     ],
-    // Asuka Langley Soryu
+    // Asuka Langley Soryu (Corrigin)
     [
-        '"Eu sou a melhor piloto!"',
-        '"Eu não vou perder para ninguém!"',
-        '"Eu sou Asuka Langley Soryu!"',
-        'Protagonista de Neon Genesis Evangelion',
         'Piloto do Eva Unit-02',
-        'Extremamente confiante e competitiva',
-        'Tem uma personalidade forte e assertiva',
-        'Busca ser reconhecida por suas habilidades',
-        'Desenvolve uma relação complexa com Shinji Ikari',
-        'Tem um passado traumático e difícil',
-        'Luta contra os Anjos para proteger a Terra'
     ],
     // Megumi Fushiguro
     [
-        '"Eu sou um feiticeiro jujutsu."',
-        '"Eu luto para proteger as pessoas."',
-        '"Treze sombras!"',
-        'Estudante da Tokyo Jujutsu High',
+        '"Sasuke" do anime das maldições',
+        'O que o diferencia dos outros é conciliar ataques de shikigami com ataques corpo a corpo',
+        'Seu pai não tem energia amaldiçoada',
+        'Quase morto pelo pai reencarnado',
+        'Encontrado quando criança por Satoru Gojo',
+        'Sua principal habilidade se chama: Técnica das dez sombras',
+        'Invicou o Mahoraga',
         'Especialista em técnicas de shikigami',
-        'Tem uma personalidade reservada e séria',
-        'Busca proteger seus amigos e inocentes',
-        'Treina arduamente para melhorar suas habilidades',
-        'Tem um passado trágico e complexo',
-        'Determinado a derrotar maldições poderosas',
-        'Desenvolve uma relação de amizade e rivalidade com Yuuji Itadori'
+        'Desenvolve uma relação de amizade e rivalidade com Yuuji Itadori',
+        'Derrotando Mahoraga, Sukuna não o deixou morrer'
     ],
     // Faye Valentine
     [
@@ -758,34 +707,6 @@ export const tipsModule = [
         'Desenvolve uma relação complexa com Gon e Killua',
         'Membro da Trupe Fantasma',
         'Busca constantemente desafios e batalhas'
-    ],
-    // Gray Fullbuster
-    [
-        '"Eu sou um mago de gelo!"',
-        '"Eu nunca vou desistir!"',
-        '"Ice Make: Lance!"',
-        'Membro da guilda Fairy Tail',
-        'Especialista em magia de criação de gelo',
-        'Tem uma personalidade teimosa e corajosa',
-        'Rival e amigo próximo de Natsu Dragneel',
-        'Busca vingar a morte de seus pais',
-        'Desenvolve habilidades poderosas ao longo da série',
-        'Tem um passado trágico e complexo',
-        'Sempre busca proteger seus amigos e guilda'
-    ],
-    // Kurapika
-    [
-        '"Eu vou vingar meu clã!"',
-        '"Correntes da Justiça!"',
-        '"Eu não posso falhar."',
-        'Membro do grupo principal em Hunter x Hunter',
-        'Último sobrevivente do clã Kurta',
-        'Busca vingança contra a Trupe Fantasma',
-        'Usa habilidades de Nen com correntes',
-        'Tem uma personalidade determinada e focada',
-        'Desenvolve uma amizade profunda com Gon, Killua e Leorio',
-        'Extremamente inteligente e estrategista',
-        'Determinado a proteger os olhos escarlates de seu clã'
     ],
     // Shigeo Kageyama (Mob)
     [
