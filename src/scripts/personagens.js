@@ -620,10 +620,25 @@ export const tipsModule = [
         'Piloto do Eva Unit-00',
         'É um clone criado por Gendo Ikari',
         'Tem uma ligação MUUUITO complexa com Shinji Ikari',
+        'Meme do animê Evangelion e do universo otaku',
+        'É extremamente leal a Gendo Ikari',
+        'É "substituída por ela mesma" várias vezes durante o animê',
+        'Criada a partir dos restos de uma mulher e do DNA do Primeiro Anjo, Adam(Adão)',
+        'Nem tudo que você vê é realidade, e nem tudo que você sonha é fantasia',
+        'Piloto do EVA amarelo e do EVA azul'
     ],
     // Asuka Langley Soryu (Corrigin)
     [
         'Piloto do Eva Unit-02',
+        'Treinada como piloto de EVA na Alemanha',
+        'Piloto de EVA, de personalidade forte e competitiva',
+        'No hospital (no original), o protagonista faz algo "feio" na frente dela',
+        'Praticamente a personagem ícone de Neon Genesis Evangelion',
+        'Sua primeira luta no animê foi no mar, contra um anjo',
+        '"Eu não quero ficar sozinha, Eu não quero ficar sozinha, Eu não quero ficar sozinha"',
+        '"É dever da elite protejer ass massas ignorantes"',
+        'Ao ir para o Japão passa a viver com Shinji e Misato',
+        'Alemã que pilota um mecha vermelho'
     ],
     // Megumi Fushiguro
     [
