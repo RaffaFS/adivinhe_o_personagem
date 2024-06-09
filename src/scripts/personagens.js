@@ -89,7 +89,6 @@ export const charsModule = [
     'THORFINN',
     'ASTA',
     'SENKU',
-    'HISOKA',
     'SHIGEO',
     'MOTOKO',
     'VIOLET',
@@ -227,6 +226,7 @@ export const tipsModule = [
     ],
     // Spike Spiegel
     [
+        'Olhe para meus olhos, Faye. Um deles é falso porque eu perdi em um acidente...',
         '"Bang."',
         '"Eu sou apenas um homem simples que quer ser deixado em paz."',
         '"You are gonna carry that weight"',
@@ -615,7 +615,7 @@ export const tipsModule = [
         'A seu querer, troca de consciência com uma "maldição" que vive dentro dele',
         'Agora devem haver pelo menos 15 dedos dentro do .......'
     ],
-    // Ayanami Rei (Corrigir)
+    // Ayanami Rei
     [
         'Piloto do Eva Unit-00',
         'É um clone criado por Gendo Ikari',
@@ -627,7 +627,7 @@ export const tipsModule = [
         'Nem tudo que você vê é realidade, e nem tudo que você sonha é fantasia',
         'Piloto do EVA amarelo e do EVA azul'
     ],
-    // Asuka Langley Soryu (Corrigin)
+    // Asuka Langley Soryu
     [
         'Piloto do Eva Unit-02',
         'Treinada como piloto de EVA na Alemanha',
@@ -644,7 +644,7 @@ export const tipsModule = [
     [
         '"Sasuke" do anime das maldições',
         'O que o diferencia dos outros é conciliar ataques de shikigami com ataques corpo a corpo',
-        'Seu pai não tem energia amaldiçoada',
+        'Seu pai é extrmamente poderoso, mesmo não tendo energia amaldiçoada',
         'Quase morto pelo pai reencarnado',
         'Encontrado quando criança por Satoru Gojo',
         'Sua principal habilidade se chama: Técnica das dez sombras',
@@ -655,45 +655,42 @@ export const tipsModule = [
     ],
     // Faye Valentine
     [
-        '"Eu sou uma caçadora de recompensas!"',
-        '"Não subestime uma mulher com uma arma."',
-        '"Eu vivo para o presente."',
-        'Membro da equipe do Bebop',
-        'Tem uma personalidade independente e audaciosa',
+        'É uma caçadora de recompensas "espacial"',
+        '"Uma vez você me falou para esquecer o passado porque isso não importa, mas você é o único ainda amarrado ao passado, Spike"',
+        'Membro da equipe do Bebop, com mais de 200 anos',
+        '"Ao invés de sentir-se sozinha em um grupo é melhor ter uma verdadeira solitude por você mesma"',
         'Amnésica com um passado misterioso',
         'Excelente atiradora e piloto',
-        'Sempre em busca de dinheiro e liberdade',
-        'Desenvolve uma relação complexa com Spike e Jet',
-        'Confronta seu passado ao longo da série',
-        'Mostra uma vulnerabilidade escondida sob sua fachada dura'
+        'Desenvolve uma relação amistosa com Spike e Jet',
+        'Começa a descobrir seu passado por uma fita cassete',
+        'Ficou congelada em animação suspensa por mais de 50 anos',
+        '"Você sabe o que eles dizem cowboy, o que vem fácil vai fácil."'
     ],
     // Thorfinn
     [
-        '"Eu vou vingar meu pai!"',
-        '"Eu sou um guerreiro!"',
-        '"Eu vivo para a batalha."',
+        'Ele é um viking que "não tem inimigos"',
+        'Um guerreiro viking com duas adagas',
+        'De guerreiro para escravo após completar sua vingança',
+        'Conquista o objetivo de seu pai ao passar a lutar desarmado',
         'Protagonista de Vinland Saga',
         'Busca vingança contra Askeladd',
-        'Extremamente habilidoso em combate',
-        'Tem um passado marcado por tragédia e perda',
-        'Desenvolve uma visão mais complexa da vida e da vingança',
-        'Participa de várias batalhas e conflitos',
-        'Cresce como pessoa e guerreiro ao longo da série',
-        'Busca um propósito maior além da vingança'
+        'Perdeu seu pai em cima de um barco e desarmado',
+        'Após completar sua vingança passa a trilhar o caminho de seu pai',
+        'Troca suas adagas por uma enxada na segunda temporada',
+        '"Vou conseguir algo em pouco tempo. então você morrerá pelas minhas mãos"',
     ],
     // Asta
     [
-        '"Eu vou me tornar o Rei Mago!"',
-        '"Eu não vou desistir!"',
-        '"Anti-Magia!"',
+        '"Eu não vou deixar você se tornar o Rei Mago!"',
+        'Confessa seu amor incansávelmente para uma freira',
+        'Quando criança, lutou contra um ladrão para pegar o colar do Yuno',
+        'Anão bombado',
+        'Recebe o grimório com o trevo de 5 folhas',
+        'O único a receber o grimório fora da biblioteca',
         'Protagonista de Black Clover',
-        'Nascido sem magia em um mundo mágico',
-        'Determinado e incansável em seus objetivos',
-        'Usa uma espada de anti-magia',
-        'Membro do esquadrão Black Bulls',
+        'Invoca uma espada de anti-magia',
+        'Membro sem magia do esquadrão Black Bulls',
         'Forma uma rivalidade amigável com Yuno',
-        'Treina arduamente para superar suas limitações',
-        'Desenvolve fortes laços de amizade e lealdade'
     ],
     // Senku Ishigami
     [
@@ -708,20 +705,6 @@ export const tipsModule = [
         'Forma alianças estratégicas para alcançar seus objetivos',
         'Lidera o Reino da Ciência',
         'Determinado a reviver todos os humanos petrificados'
-    ],
-    // Hisoka Morow
-    [
-        '"A vida é um jogo de cartas."',
-        '"Eu adoro caçar pessoas fortes."',
-        '"Você é um bom oponente."',
-        'Antagonista em Hunter x Hunter',
-        'Tem uma personalidade sádica e imprevisível',
-        'Usa a habilidade Bungee Gum',
-        'Obcecado por encontrar adversários fortes',
-        'Tem uma aparência de palhaço e um comportamento teatral',
-        'Desenvolve uma relação complexa com Gon e Killua',
-        'Membro da Trupe Fantasma',
-        'Busca constantemente desafios e batalhas'
     ],
     // Shigeo Kageyama (Mob)
     [
