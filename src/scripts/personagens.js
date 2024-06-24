@@ -88,9 +88,6 @@ export const charsModule = [
     'FAYE',
     'THORFINN',
     'ASTA',
-    'SENKU',
-    'SHIGEO',
-    'MOTOKO',
     'VIOLET',
     'ERWIN',
     'REINER',
@@ -692,116 +689,60 @@ export const tipsModule = [
         'Membro sem magia do esquadrão Black Bulls',
         'Forma uma rivalidade amigável com Yuno',
     ],
-    // Senku Ishigami
-    [
-        '"Eu vou salvar a humanidade com a ciência!"',
-        '"10 bilhões de por cento de certeza!"',
-        '"Ciência é poder!"',
-        'Protagonista de Dr. Stone',
-        'Extremamente inteligente e inovador',
-        'Busca reconstruir a civilização através da ciência',
-        'Tem uma visão pragmática e lógica do mundo',
-        'Desenvolve várias invenções para ajudar seus amigos',
-        'Forma alianças estratégicas para alcançar seus objetivos',
-        'Lidera o Reino da Ciência',
-        'Determinado a reviver todos os humanos petrificados'
-    ],
-    // Shigeo Kageyama (Mob)
-    [
-        '"Eu sou Mob."',
-        '"Eu quero ser normal."',
-        '"100% de poder!"',
-        'Protagonista de Mob Psycho 100',
-        'Psíquico extremamente poderoso',
-        'Tem uma personalidade introvertida e humilde',
-        'Busca controlar seus poderes emocionais',
-        'Treina sob a orientação de Reigen Arataka',
-        'Deseja viver uma vida normal e fazer amigos',
-        'Participa de várias batalhas psíquicas',
-        'Desenvolve uma compreensão mais profunda de si mesmo'
-    ],
-    // Motoko Kusanagi
-    [
-        '"Eu sou a Major."',
-        '"Eu luto pela justiça."',
-        '"Ciber-cérebro ativado."',
-        'Protagonista de Ghost in the Shell',
-        'Ciborgue altamente habilidosa',
-        'Líder da Seção 9 de Segurança Pública',
-        'Tem uma personalidade forte e determinada',
-        'Investiga crimes cibernéticos e terrorismo',
-        'Busca entender sua própria identidade e humanidade',
-        'Enfrenta dilemas éticos e existenciais',
-        'Extremamente habilidosa em combate e hacking'
-    ],
     // Violet Evergarden
     [
-        '"Eu sou uma Auto Memory Doll."',
-        '"Eu quero entender o que é o amor."',
-        '"Eu vou escrever suas cartas."',
+        'É uma "Auto Memory Doll".',
+        '"Eu quero saber o que significa "eu te amo", o major falou essas palavras para mim"',
         'Protagonista de Violet Evergarden',
-        'Ex-soldado em busca de uma nova vida',
+        ' Ex-soldado em busca de uma nova vida',
         'Trabalha como escritora de cartas',
-        'Busca compreender suas próprias emoções',
-        'Tem um passado marcado pela guerra e violência',
-        'Desenvolve empatia e compreensão através de seu trabalho',
-        'Forma conexões emocionais com seus clientes',
-        'Busca encontrar significado e propósito na vida civil'
+        'Busca encontrar significado e propósito na vida civil',
+        'Teve de aprender habilidades de escrita e digitação para trabalhar',
+        'Mostra grande respeito por Gilbert Bougainvillea, o seu superior nas forças armadas.'
     ],
     // Erwin Smith
     [
-        '"Eu sou o comandante!"',
-        '"Por humanidade!"',
-        '"Avancem!"',
-        'Líder do Regimento de Exploração em Attack on Titan',
-        'Extremamente inteligente e estratégico',
-        'Determinado a descobrir a verdade sobre os Titãs',
+        'Possui grande habilidade de liderança e estratégia militar no combate contra titãs',
+        'Líder do Regimento de Exploração em Attack on Titan (enquanto vivo)',
         'Tem uma personalidade carismática e inspiradora',
-        'Disposto a fazer sacrifícios pelo bem maior',
-        'Desenvolve planos complexos e arriscados',
+        'Morreu com uma pedrada do Zeke',
+        'Desenvolve táticas para enfrenter os titãs e explorar o mundo fora das muralhas',
         'Busca sempre proteger e liderar seus soldados',
-        'Tem um forte senso de dever e responsabilidade'
+        'Levou sua tropa à morte para que Levi conseguisse se aproximar de Zeke e derrotá-lo',
+        '"Somos nós que damos significado a vida dos nossos companheiros mortos!"',
+        '"Morreremos aqui, e deixamos para os que ficarem encontrar significado nas nossas vidas!"'
     ],
     // Reiner Braun
     [
-        '"Eu sou o Titã Blindado!"',
-        '"Por Marley!"',
-        '"Eu vou proteger meus amigos."',
-        'Soldado de Marley em Attack on Titan',
-        'Tem uma personalidade complexa e conflituosa',
+        'Se infiltrou nas muralhas disfarçando-se como soldado',
         'Divide sua lealdade entre Marley e seus amigos de Paradis',
-        'Luta como o Titã Blindado',
-        'Desenvolve uma relação complexa com Eren Yeager',
-        'Busca cumprir sua missão e proteger seus camaradas',
-        'Enfrenta dilemas morais e emocionais',
-        'Determinado a lutar por suas crenças'
+        'Luta como Titã Blindado',
+        'Ao lado de seus companheiros de Marley teve uma luta épica contra Eren Yeager',
+        'Liderou ataques contra a Ilha Paradis',
+        'Companheiro de Annie e Bertolt, infiltrado em Paradis'
     ],
     // Misato Katsuragi
     [
-        '"Eu sou a comandante!"',
-        '"Vamos vencer os Anjos!"',
+        'Chefe de operações da NERV responsável por coordenar e comandar missões de combate contra anjos',
+        'Acolhe Shinji Ikari em sua casa',
+        'Suas interações com Shinji ajudam a desenvolver nele coragem e confiança para pilotar o EVA-01',
         '"Protejam a Terra!"',
         'Oficial de operações em Neon Genesis Evangelion',
-        'Tem uma personalidade forte e determinada',
         'Desenvolve uma relação maternal com Shinji Ikari',
-        'Luta para proteger a humanidade dos Anjos',
-        'Enfrenta seus próprios traumas e inseguranças',
-        'Extremamente competente e estratégica',
-        'Busca sempre o melhor para seus pilotos',
-        'Desenvolve laços profundos com sua equipe'
+        'Busca sempre o melhor para seus pilotos de EVAs',
+        'Ajudou a revelar a natureza sombria de Gendo Ikari'
     ],
     // Askeladd
     [
-        '"Eu sou o capitão!"',
-        '"Por meu rei!"',
-        '"Eu vou vencer qualquer batalha."',
         'Antagonista em Vinland Saga',
-        'Líder de um grupo de mercenários',
-        'Extremamente inteligente e manipulador',
-        'Tem um passado complexo e trágico',
+        'Líder de um grupo de mercenários vikings',
+        'Contratado para matar o pai de Thorfinn',
         'Desenvolve uma relação complexa com Thorfinn',
-        'Busca cumprir seus próprios objetivos políticos',
-        'É um estrategista brilhante e guerreiro habilidoso',
-        'Tem uma personalidade carismática e dominante'
+        'É um estrategista brilhante e guerreiro celta habilidoso',
+        'Homem de descendência celta em um animê viking',
+        'Assassina o rei Sweyn durante uma confraternização',
+        'Orquestra o resgate do príncipe Canute',
+        'Com a morte dele, Thorfinn perde sua oportunidade de vingança',
+        '"Em nome de Artorius, meu ancestral, aceito seu desafio, Thorfinn"'
     ]
 ]
