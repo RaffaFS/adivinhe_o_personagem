@@ -5,47 +5,91 @@
 }
 
 body{
-    background-color:#020061;
+    background-color: rgb(2, 0, 32);
 }
 
 .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     max-width: 1280px;
-    margin: 0 auto;
+    width: 100%;
 }
 
 header{
     max-width: 720px;
-    width: 90%;
+    width: 100%;
     margin: 32px auto;
-    color: #F75C03;
-    text-align:center;
-}
-
-header .title{
-    font-size: 64px;
-    font-family: "Permanent Marker", cursive;
-    font-style: italic;
-    text-shadow: 0px 4px 8px #111;
-}
-
-header .description{
-    font-size: 32px;
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    text-shadow: 0px 4px 8px #111;
+    text-align: center;
 }
 
 .newGame_box{
     text-align: center;
 }
 
-.description_box{
+.title, .description, p{
+    color: whitesmoke;
+    text-shadow: rgb(247, 92, 2) 0px 0px 8px;
+    font-size: 38px;
     font-family: "Oswald", sans-serif;
-    color: #F75C03;
-    font-size: 20px;
-    margin-bottom: 32px;
-    text-shadow: 0px 2px 4px #111;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.title{
+    font-size: 64px;
+    font-family: "Permanent Marker", cursive;
+    color: rgb(247, 115, 2);
+}
+
+.description{
+    color: rgb(247, 115, 2);
+}
+
+.description_box{
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+p{
+    font-size: 24px;
+    text-shadow: rgb(247, 92, 2) 0px 0px 4px;
+    margin-bottom: 8px;
+}
+
+.btn_box{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.btn{
+    border: solid 2px rgba(2, 0, 145, .8);
+    background-color: rgba(2, 0, 145, .6);
+    padding: 8px 16px;
+    color: whitesmoke;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    transition: all ease .3s;
+}
+
+.btn:hover{
+    border: solid 2px rgba(2, 0, 145, 1);
+    background-color: rgba(2, 0, 121, .8);
+    transform: scale(1.1);
+    transition: all ease .3s;
+}
+
+.btnS{
+    border: solid 2px rgba(2, 0, 97, .8);
+    background-color: rgba(2, 0, 97, .2);
+    font-family: "Permanent Marker", cursive;
+    font-size: 24px;
+}
+
+.btnS:hover{
+    box-shadow: rgb(2, 0, 97) 0px 0px 16px 2px;
 }
 
 .interface_box{
@@ -53,13 +97,26 @@ header .description{
     padding: 16px;
     max-width: 720px;
     width: 90%;
-    border-radius: 20px;
-    border: solid 1px #F75C03;
-    box-shadow: 0px 4px 8px #111;
-    background-color: #0D1B30;
-    font-style: italic;
+    border-radius: 16px;
+    border: solid 1px rgb(2, 0, 145);
+    box-shadow: rgb(2, 0, 97) 0px 0px 8px 1px;
+    background-color: rgba(0, 0, 0, .8);
     font-family: "Oswald", sans-serif;
     letter-spacing: 1px;
+}
+
+.img_personagens{
+    height: 200px;
+    margin-bottom: 8px;
+    border: whitesmoke solid 1px;
+    box-shadow: white 0px 0px 4px;
+    border-radius: 8px;
+}
+
+.text_tip, .inputLabel{
+    color: whitesmoke;
+    text-shadow: rgb(247, 92, 2) 0px 0px 2px;
+    font-style: italic;
 }
 
 .input_box{
@@ -70,54 +127,19 @@ header .description{
     gap: 16px;
 }
 
-.inputLabel{
-    font-size: 20px;
-    color: #F75C03;
-}
-
 .userInput{
-    border-radius: 6px;
-    font-size: 16px;
-    padding: 4px;
-}
-
-.btn_box{
-    text-align: center;
-    margin-bottom: 8px;
-}
-
-.btn{
-    padding: 8px;
-    background-color: #020061;
-    color: #F75C03;
-    font-family: "Oswald", sans-serif;
-    letter-spacing: 1px;
     border-radius: 8px;
-}
-
-.btn:hover{
-    filter: brightness(120%);
-}
-
-.btnS{
-    padding: 16px 56px;
-    font-size: 20px;
-    font-style: italic;
+    font-size: 16px;
+    padding: 2px 4px;
+    font-family: "Oswald", sans-serif;
 }
 
 .results_box{
     font-size: 24px;
     padding: 8px;
     text-align: center;
-    color: #F75C03;
+    color: rgb(247, 92, 2);
     margin: 16px;
-}
-
-.img_personagens{
-    height: 200px;
-    margin-bottom: 8px;
-    border-radius: 8px;
-    box-shadow: 0px 2px 4px #000;
 }
 
 .finalText{
@@ -127,4 +149,51 @@ header .description{
 
 .none{
     display: none;
+}
+
+@media(max-width: 767px){
+    .container{
+        width: 90%;
+        padding-top: 0;
+    }
+
+    header{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .title, .description, p{
+        font-size: 16px;
+        font-family: "Oswald", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+    
+    .title{
+        font-size: 32px;
+        font-family: "Permanent Marker", cursive;
+        color: rgb(247, 115, 2);
+    }
+    
+    .description{
+        color: rgb(247, 115, 2);
+    }
+
+    .description_box{
+        width: 80%;
+        margin-bottom: 32px;
+    }
+
+    p{
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+
+    .text_tip{
+        font-size: 16px;
+    }
+
+    .userInput{
+        font-size: 14px;
+    }
 }
