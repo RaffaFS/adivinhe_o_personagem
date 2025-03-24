@@ -3,7 +3,7 @@ import {wrongCharsModule, charsModule, tipsModule} from './personagens.js';
 const btnS = document.querySelector('#btnS')
 btnS.addEventListener('click', start)
 
-const rodadasMax = 2
+const rodadasMax = 10
 let rodadas = 0
 let vazios = 0
 let erros = 0
@@ -134,4 +134,3 @@ function start(){
 // 2. criar tela final com:
 // 2.1 botão para reiniciar ou recarregar a página
 // 2.2 estrutura if/else para exibir diferentes imagens e frases a depender do número de acertos
-
